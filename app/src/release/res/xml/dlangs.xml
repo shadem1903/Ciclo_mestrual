@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spinner</string>
+    <string name="spn_title">Choose a language</string>
+    <string-array name="dlangs">
+        <item>Python</item>
+        <item>PHP</item>
+        <item>Perl</item>
+        <item>Tcl</item>
+        <item>Ruby</item>
+    </string-array>
+</resources>

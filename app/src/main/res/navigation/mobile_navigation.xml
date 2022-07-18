@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ciclo_mestrual.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_anticonceptivos"
+        android:name="com.example.ciclo_mestrual.ui.anticonceptivos.AnticonceptivosFragment"
+        android:label="@string/menu_anticonceptivos"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_calendario_menstrual"
+        android:name="com.example.ciclo_mestrual.ui.calendarioMenstrual.CalendarioMensturalFragment"
+        android:label="@string/menu_calendario_menstrual"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_calendario_prenatal"
+        android:name="com.example.ciclo_mestrual.ui.calendarioPrenatal.CalendarioPrenatalFragment"
+        android:label="@string/menu_calendario_prenatal"
+        tools:layout="@layout/fragment_calendario_prenatal" />
+    <fragment
+        android:id="@+id/nav_cartelera_informativo"
+        android:name="com.example.ciclo_mestrual.ui.carteleraInformativa.CarteleraInformativoFragment"
+        android:label="@string/menu_cartelera_informativa"
+        tools:layout="@layout/fragment_cartelera_informativo" />
+    <fragment
+        android:id="@+id/nav_psicolgia"
+        android:name="com.example.ciclo_mestrual.ui.psicologia.PsicolgiaFragment"
+        android:label="@string/menu_psicologia"
+        tools:layout="@layout/fragment_psicolgia" />
+</navigation>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".ui.calendarioPrenatal.CalendarioPrenatalFragment">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ciclo Mestrual"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/txtPeso"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:hint="Ingresa tu Peso "
+        android:layout_marginTop="60dp"
+        android:inputType="numberDecimal"
+        android:maxLength="4"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/txtAltura"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:hint="Ingresa tu altura "
+        android:layout_marginTop="130dp"
+        android:inputType="numberDecimal"
+        android:maxLength="4"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/txtFechaInicioM"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:hint="fecha de inicio mestrual"
+        android:layout_marginTop="200dp"
+        android:inputType="date"
+        android:maxLength="8"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/txtFechaFinalM"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:hint="Fecha Final Mestrual "
+        android:layout_marginTop="270dp"
+        android:inputType="date"
+        android:maxLength="8"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/txtDuracionCicloI"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:hint="Duración Ciclo Inicial"
+        android:layout_marginTop="340dp"
+        android:inputType="date"
+        android:maxLength="8"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/txtDuracionCicloF"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:hint="Duración Ciclo Final"
+        android:layout_marginTop="410dp"
+        android:inputType="date"
+        android:maxLength="8"
+        android:textColor="@color/black" />
+    <Button
+        android:id="@+id/btnGuardarCM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="GUARDAR"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="500dp"
+        />
+    <Button
+        android:id="@+id/btnVolverCM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Volver"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="570dp"
+        />
+</FrameLayout>
